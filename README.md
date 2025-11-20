@@ -1,83 +1,44 @@
 # 📁 Portfólio — Abraão Levi
 
-🔗 Acesse o projeto:
+### 🔗 Acesse o projeto:  
+👉 **https://abraaoleviportfolio.vercel.app/**
 
-👉 https://abraaoleviportfolio.vercel.app/
+---
 
 ## 📌 Sobre o Projeto
 
-Este projeto é o meu portfólio profissional, desenvolvido com foco em apresentar minhas habilidades, experiências, projetos e trajetória na área de tecnologia.
-Ele foi construído para ser rápido, moderno, responsivo e acessível, proporcionando uma navegação simples e objetiva para recrutadores, empresas e colaboradores.
+Este projeto é o meu **portfólio profissional**, desenvolvido com o objetivo de apresentar minhas habilidades, experiências, projetos e evolução na área de tecnologia.  
 
-O portfólio também funciona como um espaço centralizado para organizar meus trabalhos, demonstrar proficiência em ferramentas de desenvolvimento front-end e destacar minha evolução na área.
+Construído com foco em **performance, responsividade e acessibilidade**, o portfólio oferece uma navegação fluida e objetiva para recrutadores e empresas, reunindo em um só lugar tudo o que representa minha jornada como desenvolvedor.
 
-## 🚀 Tecnologias Utilizadas
+---
+
+## 🚀 Tecnologias Utilizadas  
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-- **Vite** — Build tool rápida e otimizada
-- **TypeScript** — Tipagem estática e maior confiabilidade no código
-- **React** — Biblioteca para criar interfaces modernas e reativas
-- **shadcn/ui** — Componentes estilizados, acessíveis e altamente customizáveis
-- **Tailwind CSS** — Utilitários para estilização rápida e responsiva
+- <img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" /> **Vite** — Build tool rápida e otimizada  
+- <img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> **TypeScript** — Tipagem estática e maior confiabilidade no código  
+- <img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> **React** — Biblioteca para construção de interfaces modernas  
+- <img height="20" src="https://api.iconify.design/simple-icons:shadcnui.svg" /> **shadcn/ui** — Componentes acessíveis e altamente customizáveis  
+- <img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" /> **Tailwind CSS** — Estilização rápida e responsiva baseada em utilitários  
+
+---
 
 ## 🎯 Objetivo do Projeto
 
 O portfólio foi criado para:
 
-- Apresentar meus principais projetos de desenvolvimento
-- Mostrar minhas habilidades técnicas e ferramentas dominadas
-- Facilitar o contato com recrutadores e empresas
-- Consolidar minha identidade profissional online
-- Servir como base para evolução contínua da minha carreira
+- Destacar meus principais projetos de desenvolvimento  
+- Apresentar minhas habilidades técnicas e ferramentas dominadas  
+- Facilitar o contato com recrutadores e empresas  
+- Consolidar minha identidade profissional na web  
+- Servir como base de evolução contínua da minha carreira  
+
+---
 
 ## 📂 Estrutura do Projeto
 
-A estrutura segue o padrão de aplicações React com Vite:
+Estrutura organizada seguindo padrões modernos de desenvolvimento:
 
-```
-src/
-  |-- components/     # Componentes reutilizáveis
-  |-- pages/          # Páginas principais
-  |-- styles/         # Estilos globais
-  |-- assets/         # Imagens e ícones
-  |-- lib/            # Utilitários e funções auxiliares
-```
 
-## 🧩 Como Executar Localmente
-
-### Clone o repositório
-
-```bash
-git clone https://github.com/abraaolevi/abraao-portfolio-hub.git
-```
-
-### Acesse a pasta
-
-```bash
-cd abraao-portfolio-hub
-```
-
-### Instale as dependências
-
-```bash
-npm install
-```
-
-### Execute o projeto
-
-```bash
-npm run dev
-```
-
-O projeto estará disponível em:
-
-http://localhost:5173
-
-## 📬 Contato
-
-Caso queira conversar sobre projetos, oportunidades ou colaborações:
-
-**Abraão Levi**  
-📧 seu-email-aqui : Leviabraao677@gmail.com
-🔗 Portfólio: https://abraaoleviportfolio.vercel.app/
