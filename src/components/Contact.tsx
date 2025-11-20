@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Github, Linkedin, MapPin, Globe } from "lucide-react";
+import { Mail, Github, Linkedin, MapPin, Globe } from "lucide-react";
 
 export const Contact = () => {
   const contactInfo = [
@@ -9,12 +9,6 @@ export const Contact = () => {
       label: "Email",
       value: "Leviabraao677@gmail.com",
       link: "mailto:Leviabraao677@gmail.com"
-    },
-    {
-      icon: Phone,
-      label: "Telefone",
-      value: "(85) 99236-6067",
-      link: "tel:+5585992366067"
     },
     {
       icon: Github,
