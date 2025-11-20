@@ -98,7 +98,7 @@ export const Contact = () => {
               <CardContent className="pt-6 text-center space-y-4">
                 <div className="flex items-center justify-center gap-2 text-primary">
                   <MapPin className="h-5 w-5" />
-                  <span className="font-medium">Ceará, Brasil</span>
+                  <span className="font-medium">Fortaleza-CE, Brasil</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
                   Disponível para oportunidades presenciais e remotas

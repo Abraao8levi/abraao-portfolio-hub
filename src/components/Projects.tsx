@@ -6,6 +6,12 @@ import { ExternalLink, Github } from "lucide-react";
 export const Projects = () => {
   const projects = [
     {
+      title: "Chefia Cardápio",
+      description: "Aplicação web inovadora que utiliza inteligência artificial para gerar receitas personalizadas baseadas nos ingredientes disponíveis em sua cozinha. Interface conversacional com IA, informações nutricionais detalhadas e indicação de dificuldade e tempo de preparo.",
+      link: "https://chefiacardapio.vercel.app/",
+      technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn-ui", "React Query"]
+    },
+    {
       title: "MJ Geradores",
       description: "Website institucional desenvolvido para empresa especializada em geradores de energia. Projeto completo incluindo prototipação, desenvolvimento front-end responsivo e integração com APIs.",
       link: "https://www.mjgeradores.com.br/",
