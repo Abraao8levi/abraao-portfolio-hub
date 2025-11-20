@@ -37,8 +37,5 @@ O portfólio foi criado para:
 
 ---
 
-## 📂 Estrutura do Projeto
-
-Estrutura organizada seguindo padrões modernos de desenvolvimento:
 
 
