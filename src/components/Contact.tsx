@@ -20,7 +20,7 @@ export const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Abraão Levi Vitoriano",
-      link: "https://linkedin.com/in/abraãolevivitoriano"
+      link: "www.linkedin.com/in/abraãoolevivitoriano"
     }
   ];
 
