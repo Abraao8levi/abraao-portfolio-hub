@@ -38,7 +38,7 @@ export const Hero = () => {
                 </a>
               </Button>
               <Button asChild variant="ghost" size="icon">
-                <a href="https://linkedin.com/in/abraãolevivitoriano" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/abraaolevivitoriano" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
