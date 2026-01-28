@@ -1,6 +1,6 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Github, Linkedin, MapPin, Globe } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Github, Globe, Linkedin, Mail, MapPin } from "lucide-react";
 
 export const Contact = () => {
   const contactInfo = [
@@ -35,7 +35,7 @@ export const Contact = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Entre em Contato</h2>
           <p className="text-muted-foreground">
-            Vamos trabalhar juntos! Entre em contato comigo
+            Estou aqui para colaborar! Sinta-se à vontade para entrar em contato comigo.
           </p>
         </div>
 

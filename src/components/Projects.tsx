@@ -1,15 +1,21 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ExternalLink, Github } from "lucide-react";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Chefia Cardápio",
-      description: "Aplicação web inovadora que utiliza inteligência artificial para gerar receitas personalizadas baseadas nos ingredientes disponíveis em sua cozinha. Interface conversacional com IA, informações nutricionais detalhadas e indicação de dificuldade e tempo de preparo.",
-      link: "https://chefiacardapio.vercel.app/",
-      technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn-ui", "React Query"]
+     title: "Lúmina AI - Inteligência Financeira",
+     description: "O futuro do seu controle financeiro. Um dashboard inteligente com insights de IA para maximizar seu patrimônio e simplificar sua vida financeira.",
+     link: "https://github.com/Abraao8levi/l-mina-ai---intelig-ncia-financeira",
+     technologies: ["React", "Node.js", "Express", "Sqlite3", "Python", "Tailwind CSS", "TypeScript"]
+    },
+    {
+      title: "Letterboxd",
+      description: "Criação de uma FastAPI para um aplicativo de rede social focado em filmes, permitindo aos usuários registrar, avaliar e compartilhar suas opiniões sobre filmes.",
+      link: "https://github.com/Abraao8levi/trabalho-iii-persistencia-2025.2",
+      technologies: ["Python", "FastAPI", "SQLAlchemy", "Pydantic", "MongoDB", "Supabase"]
     },
     {
       title: "MJ Geradores",

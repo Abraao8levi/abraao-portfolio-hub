@@ -1,5 +1,5 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Briefcase, Calendar } from "lucide-react";
 
 export const Experience = () => {
@@ -9,13 +9,12 @@ export const Experience = () => {
       company: "Avante Tech Jr",
       period: "Jun/2025 - Atual",
       type: "Voluntário",
-      description: [
-        "Atuação no ciclo completo de desenvolvimento: prototipação, implementação, testes e revisão",
-        "Desenvolvimento utilizando React, Next.js, JavaScript e Tailwind CSS",
-        "Integração com APIs e colaboração utilizando Git/GitHub",
-        "Participação no desenvolvimento do projeto MJ Geradores"
-      ],
-      skills: ["React", "Next.js", "JavaScript", "Tailwind CSS", "Git"]
+description: [
+  "Desenvolvimento de aplicações web modernas utilizando Next.js e React, focando em performance e SEO.",
+  "Atuação direta no projeto MJ Geradores, implementando interfaces responsivas com Tailwind CSS e integrando o front-end com APIs.",
+  "Colaboração em equipe utilizando Git Flow para versionamento e reuniões de alinhamento baseadas em Scrum."
+],
+      skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git"]
     },
     {
       title: "Estagiário de TI",

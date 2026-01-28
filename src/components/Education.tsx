@@ -1,18 +1,20 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Calendar } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Calendar, GraduationCap } from "lucide-react";
 
 export const Education = () => {
   const education = [
     {
       degree: "Bacharelado em Sistemas de Informação",
       institution: "Universidade Federal do Ceará (UFC)",
+      location: "Campus Quixadá",
       period: "2023 - Atual",
       status: "Em andamento"
     },
     {
       degree: "Técnico em Informática",
       institution: "EEEP Maria Dolores Alcântara e Silva",
+      location: "Horizonte - CE",
       period: "2019 - 2021",
       status: "Concluído"
     }
@@ -40,6 +42,9 @@ export const Education = () => {
                     </CardTitle>
                     <p className="text-lg font-medium text-muted-foreground">
                       {edu.institution}
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-1">
+                      {edu.location}
                     </p>
                   </div>
                   <Badge variant={edu.status === "Em andamento" ? "default" : "secondary"}>

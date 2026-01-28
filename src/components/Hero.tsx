@@ -20,8 +20,7 @@ export const Hero = () => {
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-xl">
-              Graduando em Sistemas de Informação pela UFC, com experiência prática em desenvolvimento web Full Stack. 
-              Apaixonado por criar soluções eficientes e elegantes.
+            Graduando em Sistemas de Informação pela UFC, com experiência em desenvolvimento web Full Stack, focado na construção de aplicações funcionais, bem estruturadas e com boa experiência de uso.
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <Button asChild size="lg" className="shadow-lg hover:shadow-xl transition-shadow">
