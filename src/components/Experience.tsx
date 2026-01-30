@@ -1,86 +1,104 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, Calendar } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { Calendar, MapPin } from "lucide-react";
 
 export const Experience = () => {
-  const experiences = [
-    {
-      title: "Desenvolvedor Full Stack",
-      company: "Avante Tech Jr",
-      period: "Jun/2025 - Atual",
-      type: "Voluntário",
-description: [
-  "Desenvolvimento de aplicações web modernas utilizando Next.js e React, focando em performance e SEO.",
-  "Atuação direta no projeto MJ Geradores, implementando interfaces responsivas com Tailwind CSS e integrando o front-end com APIs.",
-  "Colaboração em equipe utilizando Git Flow para versionamento e reuniões de alinhamento baseadas em Scrum."
-],
-      skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git"]
-    },
-    {
-      title: "Estagiário de TI",
-      company: "Fundo de Saúde Municipal de Horizonte",
-      period: "Out/2021 - Fev/2022",
-      type: "Estágio",
-      description: [
-        "Suporte técnico em hardware e software",
-        "Administração de redes e sistemas Windows e Linux",
-        "Desenvolvimento de pequenas soluções em PHP, JavaScript, HTML e CSS",
-        "Documentação de processos e resolução de problemas técnicos"
-      ],
-      skills: ["PHP", "JavaScript", "Linux", "Windows", "Redes"]
-    }
-  ];
+  const { t } = useLanguage();
+
+  const experiences = t('experience.list') as any[];
 
   return (
-    <section id="experience" className="py-20 px-4">
-      <div className="container max-w-6xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Experiência Profissional</h2>
-          <p className="text-muted-foreground">
-            Minha jornada no desenvolvimento de software
+    <section id="experience" className="py-24 px-4 relative overflow-hidden">
+      {/* Background Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background via-muted/20 to-background pointer-events-none" />
+      
+      <div className="container max-w-5xl mx-auto relative z-10">
+        <div className="text-center mb-20 space-y-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground inline-block">
+            {t('experience.title')}
+          </h2>
+          <div className="h-1.5 w-24 bg-gradient-to-r from-primary to-purple-600 mx-auto rounded-full opacity-80" />
+          <p className="text-lg text-muted-foreground/80 max-w-xl mx-auto">
+            {t('experience.subtitle')}
           </p>
         </div>
 
-        <div className="space-y-6">
-          {experiences.map((exp, index) => (
-            <Card key={index} className="border-2 hover:border-primary/50 transition-all hover:shadow-lg">
-              <CardHeader>
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
-                  <div>
-                    <CardTitle className="flex items-center gap-2 text-xl">
-                      <Briefcase className="h-5 w-5 text-primary" />
-                      {exp.title}
-                    </CardTitle>
-                    <p className="text-lg font-medium text-muted-foreground mt-1">
-                      {exp.company}
-                    </p>
-                  </div>
-                  <div className="flex flex-col gap-2">
-                    <Badge variant="outline" className="w-fit">
-                      <Calendar className="h-3 w-3 mr-1" />
-                      {exp.period}
-                    </Badge>
-                    <Badge className="w-fit">{exp.type}</Badge>
-                  </div>
+        <div className="relative">
+          {/* Vertical Timeline Line */}
+          <div className="absolute left-4 md:left-1/2 top-4 bottom-4 w-0.5 bg-gradient-to-b from-primary/50 via-purple-500/50 to-primary/50 rounded-full md:-translate-x-1/2" />
+
+          <div className="space-y-12">
+            {experiences.map((exp, index) => (
+              <div key={index} className={`relative flex flex-col md:flex-row gap-8 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
+                
+                {/* Timeline Dot */}
+                <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-background border-4 border-primary rounded-full z-10 md:-translate-x-1/2 mt-6 shadow-[0_0_10px_rgba(var(--primary),0.5)]">
+                  <div className="absolute inset-0 bg-primary/20 rounded-full animate-ping opacity-75" />
                 </div>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <ul className="space-y-2">
-                  {exp.description.map((item, i) => (
-                    <li key={i} className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span className="text-muted-foreground">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="flex flex-wrap gap-2 pt-2">
-                  {exp.skills.map((skill, i) => (
-                    <Badge key={i} variant="secondary">{skill}</Badge>
-                  ))}
+
+                {/* Content Card */}
+                <div className="ml-12 md:ml-0 md:w-1/2 group">
+                  <Card className="border-muted/60 bg-card/60 backdrop-blur-sm hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300 overflow-hidden relative">
+                    <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    
+                    <CardHeader className="pb-3">
+                      <div className="flex flex-col gap-1">
+                        <div className="flex items-center justify-between flex-wrap gap-2">
+                          <CardTitle className="text-xl font-bold text-primary group-hover:text-purple-600 transition-colors duration-300">
+                            {exp.title}
+                          </CardTitle>
+                          <Badge variant="outline" className="text-xs bg-primary/5 border-primary/20">
+                            {exp.type}
+                          </Badge>
+                        </div>
+                        <h3 className="text-lg font-semibold text-foreground/90">{exp.company}</h3>
+                        
+                        <div className="flex items-center gap-4 text-sm text-muted-foreground mt-1">
+                          <span className="flex items-center gap-1.5">
+                            <Calendar className="w-4 h-4 text-primary/70" />
+                            {exp.period}
+                          </span>
+                          {exp.location && (
+                            <span className="flex items-center gap-1.5">
+                              <MapPin className="w-4 h-4 text-primary/70" />
+                              {exp.location}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </CardHeader>
+                    
+                    <CardContent className="space-y-4">
+                      <ul className="space-y-2.5">
+                        {exp.description.map((item, i) => (
+                          <li key={i} className="flex items-start gap-2.5 text-sm md:text-base text-muted-foreground/90 leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                            <span className="mt-2 h-1.5 w-1.5 rounded-full bg-primary/60 flex-shrink-0" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      
+                      <div className="flex flex-wrap gap-2 pt-3 border-t border-border/50">
+                        {exp.skills.map((skill, i) => (
+                          <Badge 
+                            key={i} 
+                            variant="secondary" 
+                            className="bg-secondary/50 hover:bg-primary/10 hover:text-primary transition-colors cursor-default"
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
                 </div>
-              </CardContent>
-            </Card>
-          ))}
+
+                {/* Empty space for the other side of the timeline */}
+                <div className="hidden md:block md:w-1/2" />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
