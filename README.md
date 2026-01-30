@@ -30,7 +30,7 @@ Construído com foco em **performance, responsividade e acessibilidade**, o port
 
 - **Design Moderno e Responsivo**: Layout adaptável para qualquer dispositivo (Mobile, Tablet, Desktop).
 - **Temas Claro e Escuro**: Suporte nativo a *Dark Mode* e *Light Mode*.
-- **Internacionalização (i18n)**: Suporte a múltiplos idiomas (Português, Inglês, Espanhol, Francês).
+- **Internacionalização (i18n)**: Suporte a múltiplos idiomas (Português e Inglês).
 - **Animações Fluidas**: Micro-interações e transições suaves para melhor experiência do usuário.
 - **Performance Otimizada**: Utilização do Vite para build rápido e carregamento eficiente.
 
