@@ -5,44 +5,43 @@ import { Code, Database, Layers, Terminal, Wrench } from "lucide-react";
 
 export const Skills = () => {
   const { t } = useLanguage();
-
-  const skillCategories = [
-    {
-      title: "Linguagens",
-      icon: Code,
-      skills: ["Python", "JavaScript", "TypeScript", "Java"],
-      color: "text-blue-500",
-      bgColor: "bg-blue-500/10"
-    },
-    {
-      title: "Front-End",
-      icon: Layers,
-      skills: ["React", "Next.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "MUI"],
-      color: "text-purple-500",
-      bgColor: "bg-purple-500/10"
-    },
-    {
-      title: "Back-End",
-      icon: Terminal,
-      skills: ["APIs REST", "Node.js", "Java Spring"],
-      color: "text-emerald-500",
-      bgColor: "bg-emerald-500/10"
-    },
-    {
-      title: "Banco de Dados",
-      icon: Database,
-      skills: ["SQL", "PostgreSQL", "MongoDB"],
-      color: "text-orange-500",
-      bgColor: "bg-orange-500/10"
-    },
-    {
-      title: "Ferramentas",
-      icon: Wrench,
-      skills: ["Git", "GitHub", "Figma", "Agile/Scrum", "Windows", "Linux"],
-      color: "text-pink-500",
-      bgColor: "bg-pink-500/10"
-    }
-  ];
+const skillCategories = [
+  {
+    title: "Linguagens de Programação",
+    icon: Code,
+    skills: ["Python", "JavaScript", "TypeScript", "Java"],
+    color: "text-blue-500",
+    bgColor: "bg-blue-500/10"
+  },
+  {
+    title: "Back-End",
+    icon: Terminal,
+    skills: ["Node.js", "Spring Boot", "FastAPI", "RESTful APIs"],
+    color: "text-emerald-500",
+    bgColor: "bg-emerald-500/10"
+  },
+  {
+    title: "Front-End",
+    icon: Layers,
+    skills: ["React", "Next.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "MUI","Vue.js"],
+    color: "text-purple-500",
+    bgColor: "bg-purple-500/10"
+  },
+  {
+    title: "Banco de Dados",
+    icon: Database,
+    skills: ["PostgreSQL", "MongoDB", "SQL"],
+    color: "text-orange-500",
+    bgColor: "bg-orange-500/10"
+  },
+  {
+    title: "Ferramentas & Metodologias",
+    icon: Wrench,
+    skills: ["Git", "GitHub", "Docker", "Figma", "Scrum", "Linux"],
+    color: "text-pink-500",
+    bgColor: "bg-pink-500/10"
+  }
+];
 
   return (
     <section id="skills" className="py-24 px-4 relative overflow-hidden bg-background">
