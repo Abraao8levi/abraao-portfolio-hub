@@ -102,6 +102,24 @@ export const translations = {
           technologies: ["Next.js", "React", "TypeScript", "Tailwind"],
           gradient: "from-emerald-500 to-teal-500",
           iconName: "Globe"
+        },
+        {
+          title: "Desafio Back-End PicPay",
+          subtitle: "Java Spring",
+          description: "Solução para o Desafio Back-End do PicPay, desenvolvida com Java 21 e Spring Boot. O objetivo é implementar uma API simplificada de pagamentos.",
+          link: "https://github.com/Abraao8levi/Desafio--Backend--Java",
+          technologies: ["Java", "Spring Boot", "Maven", "H2"],
+          gradient: "from-green-600 to-emerald-400",
+          iconName: "Code2"
+        },
+        {
+          title: "Jornal da UFC",
+          subtitle: "Portal de Notícias",
+          description: "Portal de notícias da UFC para publicação e consulta de informações acadêmicas. Conta com sistema de aprovação para editores e listagem por categorias.",
+          link: "https://github.com/Abraao8levi/Jornal-da-UFC-Gerencia",
+          technologies: ["Node.js", "Express", "Supabase", "React", "TypeScript"],
+          gradient: "from-blue-600 to-indigo-500",
+          iconName: "Globe"
         }
       ]
     },
@@ -269,6 +287,24 @@ export const translations = {
           link: "https://www.mjgeradores.com.br/",
           technologies: ["Next.js", "React", "TypeScript", "Tailwind"],
           gradient: "from-emerald-500 to-teal-500",
+          iconName: "Globe"
+        },
+        {
+          title: "PicPay Back-End Challenge",
+          subtitle: "Java Spring",
+          description: "Solution for the PicPay Back-End Challenge, developed with Java 21 and Spring Boot. The goal is to implement a simplified payment API.",
+          link: "https://github.com/Abraao8levi/Desafio--Backend--Java",
+          technologies: ["Java", "Spring Boot", "Maven", "H2"],
+          gradient: "from-green-600 to-emerald-400",
+          iconName: "Code2"
+        },
+        {
+          title: "Jornal da UFC",
+          subtitle: "News Portal",
+          description: "UFC news portal for publishing and reading academic information. It features an approval system for editors and category listing.",
+          link: "https://github.com/Abraao8levi/Jornal-da-UFC-Gerencia",
+          technologies: ["Node.js", "Express", "Supabase", "React", "TypeScript"],
+          gradient: "from-blue-600 to-indigo-500",
           iconName: "Globe"
         }
       ]
