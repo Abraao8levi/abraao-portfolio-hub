@@ -20,12 +20,12 @@ export const translations = {
     about: {
       title: "Sobre Mim",
       subtitle: "Minha jornada profissional",
-      text1: "Graduando em Sistemas de Informação, com experiência na Empresa Júnior Avante Tech Jr, atuando no desenvolvimento de aplicações escaláveis e no fortalecimento de habilidades como comunicação, liderança e trabalho em equipe.",
-      text2: "Foco em código bem estruturado, boas decisões de arquitetura e na experiência do usuário. Mantenho aprendizado contínuo para acompanhar novas tecnologias e evoluir como desenvolvedor.",
+      text1: "Graduando em Sistemas de Informação pela UFC, com experiência prática na Empresa Júnior Avante Tech Jr. Atuo no desenvolvimento Full Stack de aplicações escaláveis, construindo interfaces com React, Next.js e TypeScript, e arquitetando o back-end com Java e Spring Boot.",
+      text2: "Tenho foco em código bem estruturado, boas decisões de arquitetura e em entregar a melhor experiência para o usuário. Além da parte técnica, valorizo o fortalecimento de habilidades como comunicação, liderança e trabalho em equipe. Mantenho um aprendizado contínuo para acompanhar novas tecnologias e evoluir diariamente como desenvolvedor.",
       features: [
         {
           title: "Full Stack",
-          description: "Desenvolvimento completo com React, Next.js, Node.js e bancos de dados SQL/NoSQL."
+          description: "Desenvolvimento de ponta a ponta, criando interfaces modernas com React/Next.js e construindo APIs robustas com Java (Spring Boot) e Node.js, integradas a bancos relacionais e NoSQL."
         },
         {
           title: "UI/UX Design",
@@ -52,7 +52,7 @@ export const translations = {
             "Atuação direta no projeto MJ Geradores, implementando interfaces responsivas com Tailwind CSS e integrando o front-end com APIs.",
             "Colaboração em equipe utilizando Git Flow para versionamento e reuniões de alinhamento baseadas em Scrum."
           ],
-          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git"]
+          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git", "Java", "Spring Boot", "Docker"]
         },
         {
           title: "Estagiário de TI",
@@ -206,12 +206,12 @@ export const translations = {
     about: {
       title: "About Me",
       subtitle: "My professional journey",
-      text1: "Information Systems undergraduate with experience at Junior Enterprise Avante Tech Jr, working on scalable application development and strengthening skills such as communication, leadership, and teamwork.",
-      text2: "Focused on well-structured code, sound architectural decisions, and user experience. I maintain continuous learning to keep up with new technologies and evolve as a developer.",
+      text1: "Information Systems undergraduate at UFC, with practical experience at the Junior Enterprise Avante Tech Jr. I work on Full Stack development of scalable applications, building interfaces with React, Next.js, and TypeScript, and architecting the back-end with Java and Spring Boot.",
+      text2: "I focus on well-structured code, sound architectural decisions, and delivering the best user experience. Beyond the technical side, I value strengthening skills such as communication, leadership, and teamwork. I maintain continuous learning to keep up with new technologies and evolve daily as a developer.",
       features: [
         {
           title: "Full Stack",
-          description: "Full Stack development with React, Next.js, Node.js and SQL/NoSQL databases."
+          description: "End-to-end development, creating modern interfaces with React/Next.js and building robust APIs with Java (Spring Boot) and Node.js, integrated with relational and NoSQL databases."
         },
         {
           title: "UI/UX Design",
@@ -238,7 +238,7 @@ export const translations = {
             "Direct involvement in the MJ Geradores project, implementing responsive interfaces with Tailwind CSS and integrating the front-end with APIs.",
             "Team collaboration using Git Flow for versioning and Scrum-based alignment meetings."
           ],
-          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git"]
+          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git", "Java", "Spring Boot", "Docker"]
         },
         {
           title: "IT Intern",
