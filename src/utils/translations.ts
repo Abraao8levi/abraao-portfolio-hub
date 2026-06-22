@@ -44,15 +44,16 @@ export const translations = {
         {
           title: "Desenvolvedor Full Stack",
           company: "Avante Tech Jr",
-          period: "Jun/2025 - Atual",
+          period: "Maio/2025 - Junho/2026",
           type: "Voluntário",
           location: "Remoto",
           description: [
             "Desenvolvimento de aplicações web modernas utilizando Next.js e React, focando em performance e SEO.",
-            "Atuação direta no projeto MJ Geradores, implementando interfaces responsivas com Tailwind CSS e integrando o front-end com APIs.",
+            "Desenvolvimento do Dashboard Administrativo para a CDL Boa Viagem - CE, utilizando Docker, Java, Spring Boot e MySQL, integrado ao front-end.",
+            "Atuação direta nos projetos MJ Geradores e no site institucional da CDL Boa Viagem - CE, implementando interfaces responsivas com Tailwind CSS e integração com APIs.",
             "Colaboração em equipe utilizando Git Flow para versionamento e reuniões de alinhamento baseadas em Scrum."
           ],
-          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git", "Java", "Spring Boot", "Docker"]
+          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git", "Java", "Spring Boot", "Docker", "MySQL"]
         },
         {
           title: "Estagiário de TI",
@@ -230,15 +231,16 @@ export const translations = {
         {
           title: "Full Stack Developer",
           company: "Avante Tech Jr",
-          period: "Jun/2025 - Present",
+          period: "May/2025 - June/2026",
           type: "Volunteer",
           location: "Remote",
           description: [
             "Development of modern web applications using Next.js and React, focusing on performance and SEO.",
-            "Direct involvement in the MJ Geradores project, implementing responsive interfaces with Tailwind CSS and integrating the front-end with APIs.",
+            "Development of the Administrative Dashboard for CDL Boa Viagem - CE, utilizing Docker, Java, Spring Boot, and MySQL, integrated with the front-end.",
+            "Direct involvement in the MJ Geradores and CDL Boa Viagem - CE institutional website projects, implementing responsive interfaces with Tailwind CSS and API integration.",
             "Team collaboration using Git Flow for versioning and Scrum-based alignment meetings."
           ],
-          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git", "Java", "Spring Boot", "Docker"]
+          skills: ["React", "Next.js", "Node.js", "TypeScript", "JavaScript", "Tailwind CSS", "Git", "Java", "Spring Boot", "Docker", "MySQL"]
         },
         {
           title: "IT Intern",

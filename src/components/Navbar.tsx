@@ -6,14 +6,16 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { cn } from "@/lib/utils";
-import { Github, Globe, Linkedin, Mail, Menu, X } from "lucide-react";
+import { Github, Globe, Linkedin, Mail, Menu, X, Sun, Moon } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
+import { useTheme } from "next-themes";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { language, setLanguage, t } = useLanguage();
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -86,6 +88,17 @@ export const Navbar = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              className="h-9 w-9 relative rounded-full"
+              aria-label="Toggle theme"
+            >
+              <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0 text-foreground" />
+              <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100 text-foreground" />
+            </Button>
+
             <div className="flex items-center gap-2 border-l pl-4 border-border/50">
               <a
                 href="https://github.com/Abraao8levi"
@@ -108,6 +121,17 @@ export const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center gap-4">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              className="h-9 w-9 relative rounded-full"
+              aria-label="Toggle theme"
+            >
+              <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0 text-foreground" />
+              <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100 text-foreground" />
+            </Button>
+
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="gap-1 px-2 h-9">
