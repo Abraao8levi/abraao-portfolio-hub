@@ -2,16 +2,16 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { ArrowUpRight, Code2, ExternalLink, Github, Globe, Rocket } from "lucide-react";
+import { ArrowUpRight, Code2, ExternalLink, Github, Globe, Rocket, Smartphone } from "lucide-react";
 
 export const Projects = () => {
   const { t } = useLanguage();
 
-  /* Define icon map since we can't store components in JSON */
   const iconMap: any = {
     Rocket: Rocket,
     Code2: Code2,
-    Globe: Globe
+    Globe: Globe,
+    Smartphone: Smartphone
   };
 
   const projects = t('projects.projects_list') || [];

@@ -20,8 +20,8 @@ export const translations = {
     about: {
       title: "Sobre Mim",
       subtitle: "Minha jornada profissional",
-      text1: "Graduando em Sistemas de Informação pela UFC, com experiência prática na Empresa Júnior Avante Tech Jr. Atuo no desenvolvimento Full Stack de aplicações escaláveis, construindo interfaces com React, Next.js e TypeScript, e arquitetando o back-end com Java e Spring Boot.",
-      text2: "Tenho foco em código bem estruturado, boas decisões de arquitetura e em entregar a melhor experiência para o usuário. Além da parte técnica, valorizo o fortalecimento de habilidades como comunicação, liderança e trabalho em equipe. Mantenho um aprendizado contínuo para acompanhar novas tecnologias e evoluir diariamente como desenvolvedor.",
+      text1: "Desenvolvedor de Software e estudante de Sistemas de Informação pela UFC, com experiência prática no desenvolvimento de aplicações web completas. Habilidade na criação de interfaces responsivas com React.js, Next.js e TypeScript, além de back-end com Java e Spring Boot.",
+      text2: "Possuo conhecimentos em controle de versão (Git Flow), bancos de dados relacionais e não relacionais (PostgreSQL, MySQL, MongoDB) e metodologias ágeis (Scrum/Kanban). Com experiência em automação de processos e suporte de TI, possuo uma visão sistêmica e busco oportunidades para desenvolver soluções inovadoras e escaláveis.",
       features: [
         {
           title: "Full Stack",
@@ -77,6 +77,15 @@ export const translations = {
       view_details: "Ver Detalhes",
       more_github: "Mais no GitHub",
       projects_list: [
+        {
+          title: "QuickQXD",
+          subtitle: "Facilitador de Água e Gás",
+          description: "Aplicativo mobile desenvolvido em Kotlin para conectar moradores e fornecedores de água e gás em Quixadá. Permite realizar pedidos de forma ágil, com localização dinâmica via mapa e comunicação direta via WhatsApp.",
+          link: "https://github.com/Abraao8levi/classroom-mobile-final-lvdroid.git",
+          technologies: ["Kotlin", "Firebase", "Google API", "WhatsApp API"],
+          gradient: "from-sky-400 to-blue-600",
+          iconName: "Smartphone"
+        },
         {
           title: "Lúmina AI",
           subtitle: "Inteligência Financeira",
@@ -207,8 +216,8 @@ export const translations = {
     about: {
       title: "About Me",
       subtitle: "My professional journey",
-      text1: "Information Systems undergraduate at UFC, with practical experience at the Junior Enterprise Avante Tech Jr. I work on Full Stack development of scalable applications, building interfaces with React, Next.js, and TypeScript, and architecting the back-end with Java and Spring Boot.",
-      text2: "I focus on well-structured code, sound architectural decisions, and delivering the best user experience. Beyond the technical side, I value strengthening skills such as communication, leadership, and teamwork. I maintain continuous learning to keep up with new technologies and evolve daily as a developer.",
+      text1: "Software Developer and Information Systems student at UFC, with practical experience in developing full-stack web applications. Skilled in building responsive interfaces using React.js, Next.js, and TypeScript, as well as developing back-ends with Java and Spring Boot.",
+      text2: "Proficient in version control (Git Flow), relational and non-relational databases (PostgreSQL, MySQL, MongoDB), and agile methodologies (Scrum/Kanban). Experienced in process automation and IT support, possessing a systemic vision to develop innovative and scalable solutions.",
       features: [
         {
           title: "Full Stack",
@@ -264,6 +273,15 @@ export const translations = {
       view_details: "View Details",
       more_github: "More on GitHub",
       projects_list: [
+        {
+          title: "QuickQXD",
+          subtitle: "Water & Gas Facilitator",
+          description: "Mobile application developed in Kotlin to connect residents and water/gas suppliers in Quixadá. Allows quick orders with dynamic location mapping and direct WhatsApp communication.",
+          link: "https://github.com/Abraao8levi/classroom-mobile-final-lvdroid.git",
+          technologies: ["Kotlin", "Firebase", "Google API", "WhatsApp API"],
+          gradient: "from-sky-400 to-blue-600",
+          iconName: "Smartphone"
+        },
         {
           title: "Lúmina AI",
           subtitle: "Financial Intelligence",
